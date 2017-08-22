@@ -1,0 +1,43 @@
+body {
+	letter-spacing: 0.1px; padding: 0; margin: 0; font-family: 'Space Mono', Monospace, Courier; 
+    font-weight: 400; font-size: 17px; color: #c8c8c8; min-height: 100%; background: #222;
+    position: relative;
+}
+
+#header {
+	text-align:center;
+	font-weight: bolder;
+}
+
+.nav-margin {
+	margin-top: 35px;
+}
+
+pre {
+	white-space: pre-wrap;  
+	word-break: normal;
+	color: #c8c8c8;
+	text-align: center;
+	line-height: 1.2;
+}
+
+a {
+	color: white;
+}
+
+a.active{
+	color: #c8c8c8;
+ background-color: #222 !important;
+}
+
+a:hover{
+	color: #c8c8c8;
+}
+
+.donate {
+	text-align: center;
+}
+
+.address > p {
+	display: inline-block;
+}
